@@ -17,4 +17,12 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 //1 =>true,0=>false
 //" "=>false
 //"preeti"=>true
-console.table([ value,valueOfMarks,valueInNumber,itsValueInNumber,itsValueAge,booleanIsLoggedIn]);
+//console.table([ value,valueOfMarks,valueInNumber,itsValueInNumber,itsValueAge,booleanIsLoggedIn]);
+
+//***********************operations ********************
+
+console.log("1"+ 2);//12
+console.log(1 + "2");//12
+console.log("1"+2+2);//122
+console.log(1+2+"2");//32
+console.log(1+"2"+2);//122
