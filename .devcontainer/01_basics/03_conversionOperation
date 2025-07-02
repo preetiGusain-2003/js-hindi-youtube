@@ -1,0 +1,20 @@
+let score = "33";
+let value = Number(score);
+let marks = "33abc";
+let valueOfMarks = Number(marks);
+let x=null;
+let valueInNumber = Number(null);
+let y=undefined;
+let itsValueInNumber = Number(undefined);
+//"33" => 33
+//"33abc" => NaN(not a number)
+//true=>1;false=>0
+let age = 22;
+let itsValueAge = String(age);//it gives '22' but it is string you can check with typeof
+let isLoggedIn = "preeti";
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+//in boolean if you replace preeti in 
+//1 =>true,0=>false
+//" "=>false
+//"preeti"=>true
+console.table([ value,valueOfMarks,valueInNumber,itsValueInNumber,itsValueAge,booleanIsLoggedIn]);
