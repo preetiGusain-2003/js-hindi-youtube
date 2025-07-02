@@ -1,0 +1,7 @@
+"use strict";//treat all js code as newer version
+//alert(3+3)//we are using nodejs,not browser so here it gives error
+//two documentation tcs39 or mdn//
+console.log(typeof undefined)//give output undefined
+console.log(typeof null)//give output object
+let age = 22; //int 
+let name = "preeti";//string
